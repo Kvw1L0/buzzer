@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buzzer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login">
+  <h2>¿Quién eres?</h2>
+  <input id="nameInput" placeholder="Tu nombre" />
+  <button onclick="join()">Entrar</button>
+</div>
+
+<div id="game" class="hidden">
+  <h2 id="status">Espera la pregunta...</h2>
+  <button id="buzzer" onclick="buzz()">¡BUZZ!</button>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
