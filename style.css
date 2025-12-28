@@ -1,0 +1,32 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 20px 40px;
+  font-size: 22px;
+  border: none;
+  border-radius: 12px;
+  background: #ff0055;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #444;
+  cursor: not-allowed;
+}
